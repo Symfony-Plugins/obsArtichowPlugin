@@ -1,0 +1,63 @@
+artichow:
+  fonts:
+    directory: data/fonts 
+    list: [ Tuffy, TuffyBold, TuffyBoldItalic, TuffyItalic ]
+  patterns:
+  images:
+  cache:
+    directory:
+    enabled: true
+  prefix: aw
+  deprecated_error: enabled
+  driver: gd
+  colors:
+    Black: [0, 0, 0]
+    AlmostBlack: [48, 48, 48]
+    VeryDarkGray: [88, 88, 88]
+    DarkGray: [128, 128, 128]
+    MidGray: [160, 160, 160]
+    LightGray: [195, 195, 195]
+    VeryLightGray: [220, 220, 220]
+    White: [255, 255, 255]
+    VeryDarkRed: [64, 0, 0]
+    DarkRed: [128, 0, 0]
+    MidRed: [192, 0, 0]
+    Red: [255, 0, 0]
+    LightRed: [255, 192, 192]
+    VeryDarkGreen: [0, 64, 0]
+    DarkGreen: [0, 128, 0]
+    MidGreen: [0, 192, 0]
+    Green: [0, 255, 0]
+    LightGreen: [192, 255, 192]
+    VeryDarkBlue: [0, 0, 64]
+    DarkBlue: [0, 0, 128]
+    MidBlue: [0, 0, 192]
+    Blue: [0, 0, 255]
+    LightBlue: [192, 192, 255]
+    VeryDarkYellow: [64, 64, 0]
+    DarkYellow: [128, 128, 0]
+    MidYellow: [192, 192, 0]
+    Yellow: [255, 255, 2]
+    LightYellow: [255, 255, 192]
+    VeryDarkCyan: [0, 64, 64]
+    DarkCyan: [0, 128, 128]
+    MidCyan: [0, 192, 192]
+    Cyan: [0, 255, 255]
+    LightCyan: [192, 255, 255]
+    VeryDarkMagenta: [64, 0, 64]
+    DarkMagenta: [128, 0, 128]
+    MidMagenta: [192, 0, 192]
+    Magenta: [255, 0, 255]
+    LightMagenta: [255, 192, 255]
+    DarkOrange: [192, 88, 0]
+    Orange: [255, 128, 0]
+    LightOrange: [255, 168, 88]
+    VeryLightOrange: [255, 220, 168]
+    DarkPink: [192, 0, 88]
+    Pink: [255, 0, 128]
+    LightPink: [255, 88, 168]
+    VeryLightPink: [255, 168, 220]
+    DarkPurple: [88, 0, 192]
+    Purple: [128, 0, 255]
+    LightPurple: [168, 88, 255]
+    VeryLightPurple: [220, 168, 255]

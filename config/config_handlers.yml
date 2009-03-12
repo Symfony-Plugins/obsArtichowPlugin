@@ -1,0 +1,2 @@
+config/artichow.yml:
+  class: artichowConfigHandler
