@@ -1,0 +1,5 @@
+default:
+  http_metas:
+    content-type: image/png
+
+  has_layout:     false

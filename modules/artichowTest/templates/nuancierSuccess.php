@@ -3,8 +3,6 @@
 // @param integer $cols
 // @param array $colors
 
-sfContext::getInstance()->getResponse()->setContentType('image/png');
-
 $num = count($colors);
 $rows = ceil($num / $cols);
 
@@ -22,8 +20,11 @@ $driver = $image->getDriver();
 
 $offset = new awPoint(5,5);
 $i = 0;
-foreach($colors as $color)
+foreach($colors as $colorname)
 {
+  if(!class_exists($colorname)) continue;
+
+  $color = new $colorname();
   $driver->filledRectangle($color, new awLine(
     $offset,
     $offset->move(50, 50)
